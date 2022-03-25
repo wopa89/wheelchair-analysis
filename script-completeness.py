@@ -21,8 +21,8 @@ starttime      = config.get("time", "starttime")
 endtime        = config.get("time", "endtime")
 boundary       = config.get("boundary", "path_to_boundary")
 filter_arg     = config.get("filter", "filter_arg")
-out_all        = config.get("output", "outfile_all")
-out_wheelchair = config.get("output", "outfile_wheelchair")
+out_object     = config.get("output", "outfile")
+out_attribute  = config.get("output", "outfile_attribute")
 
 # read boundary file
 bpolys = gpd.read_file(boundary) # path to geojson with administrative boundary
@@ -104,11 +104,11 @@ df_stations = pd.DataFrame({
     'value': list_stations
 })
 print(df_stations)
-df_stations.to_csv(out_all, index=False)
+df_stations.to_csv(out_object, index=False)
 
 df_wheelchair = pd.DataFrame({
     'time' : list_time,
     'value': list_wheelchair
 })
 print(df_wheelchair)
-df_wheelchair.to_csv(out_wheelchair, index=False)
+df_wheelchair.to_csv(out_attribute, index=False)

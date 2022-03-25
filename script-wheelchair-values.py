@@ -21,7 +21,7 @@ starttime      = config.get("time", "starttime")
 endtime        = config.get("time", "endtime")
 boundary       = config.get("boundary", "path_to_boundary")
 filter_arg     = config.get("filter", "filter_arg")
-out_file       = config.get("output", "outfile_all")
+out_file       = config.get("output", "outfile")
 
 # read boundary file
 bpolys = gpd.read_file(boundary) # path to geojson with administrative boundary
