@@ -50,7 +50,7 @@ start = starttime[2] + starttime[3]
 end   = endtime[2] + endtime[3]
 
 #for y in range(9,22):
-for y in range(int(start),int(start)):
+for y in range(int(start),int(end)):
     year = str(y)
     # check if year between 0-9 -> add 0
     if len(year) < 2:

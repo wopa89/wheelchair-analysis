@@ -49,3 +49,8 @@ The ohsome-input.ini file needs a
 - additional csv output file for completeness
 
 Example of parameters are in ohsome-input.ini
+
+## Usage
+```
+python script.py ohsome-input.ini
+```
