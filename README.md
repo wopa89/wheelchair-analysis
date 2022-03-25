@@ -18,7 +18,7 @@ with tag wheelchair and a contribution analysis with counting numbers of contrib
 by type.
 ## Requirements
 
-Following depencencies are in requirements.yml
+Following depencencies are in environment.yml
 ```
 name: analysis
 dependencies:
