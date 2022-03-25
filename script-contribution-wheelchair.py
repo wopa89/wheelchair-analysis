@@ -1,8 +1,9 @@
 from ohsome import OhsomeClient
 from datetime import datetime
+from configparser import ConfigParser
 import geopandas as gpd
 import pandas as pd
-from configparser import ConfigParser
+import numpy as np
 import os
 import sys
 

@@ -1,9 +1,8 @@
-from ohsome import OhsomeClient
-from datetime import datetime
 import geopandas as gpd
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
+import numpy as np
 import os
 import sys
 

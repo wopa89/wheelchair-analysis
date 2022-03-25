@@ -1,0 +1,8 @@
+name: analysis
+dependencies:
+    - python=3.10.0
+    - numpy=1.22.0
+    - matplotlib=3.5.1
+    - geopandas=0.10.2
+    - requests=2.25.1
+    
