@@ -3,12 +3,10 @@
 
 This project is part of the Masterthesis
 
-'Analyse des Potentials von OSM-Daten für eine barrierefreie
-Auskunft für Rollstuhlfahrende im ÖPNV anhand
-Datenqualitäts-Analysen und einer Routing-Anwendung - am Beispiel
-Karlsruhe und Magdeburg'
+'Das Potential von OSM-Daten für eine barrierefreie Routenauskunft im ÖPNV
+-Eine Analyse der Datenqualität und einer Routinganwendung am Beispiel von Karlsruhe und Magdeburg'
 
-The python scripts make use of the ohsome API and the possibility to access 
+by Pascal Wolf. The python scripts make use of the ohsome API and the possibility to access 
 OSM history.
 
 ![alt text](https://github.com/wopa89/wheelchair-analysis/blob/main/python-scripts-overview.png?raw=true)
